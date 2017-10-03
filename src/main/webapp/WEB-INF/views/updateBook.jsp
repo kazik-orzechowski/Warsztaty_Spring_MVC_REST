@@ -9,7 +9,7 @@
 </head>
 <body>
 
- <form action="http://localhost:8080/Warsztaty_Spring_MVC_REST/books/updateBook2" method="post">
+ <form action="http://localhost:8080/Warsztaty_Spring_MVC_REST/books/updateBookPost" method="post">
 
 <h1>Zaktualizuj książkę SVP</h1>
 	<label>

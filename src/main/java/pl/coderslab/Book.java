@@ -1,5 +1,10 @@
 package pl.coderslab;
 
+/**
+ * Book class objects describe each book in library.
+ * @author kaz
+ *
+ */
 
 public class Book {
 

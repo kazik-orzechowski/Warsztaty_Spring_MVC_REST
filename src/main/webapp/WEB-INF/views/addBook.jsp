@@ -9,37 +9,37 @@
 </head>
 <body>
 
- <form action="http://localhost:8080/Warsztaty_Spring_MVC_REST/books/updateBookPost" method="post">
+ <form action="http://localhost:8080/Warsztaty_Spring_MVC_REST/books/addBook" method="post">
 
-<h1>Zaktualizuj książkę SVP</h1>
+<h1>Dodaj nową książkę SVP</h1>
 	<label>
 		Id:
-		<input type="hidden" name="id" value="${bookToUpdate.id}">
+		<input type="hidden" name="id" >
 	</label>
 	<br>
 	<label>
 		ISBN:
-		<input type="text" name="isbn" value="${bookToUpdate.isbn}">
+		<input type="text" name="isbn" >
 	</label>
 	<br>
 	<label>
 		Tytuł:
-		<input type="text" name="title" value="${bookToUpdate.title}">
+		<input type="text" name="title" >
 	</label>
 	<br>
 	<label>
 		Autor:
-		<input type="text" name="author" value="${bookToUpdate.author}">
+		<input type="text" name="author">
 	</label>
 	<br>
 	<label>
 		Wydawca:
-		<input type="text" name="publisher" value="${bookToUpdate.publisher}">
+		<input type="text" name="publisher" >
 	</label>
 	<br>
 	<label>
 		Gatunek:
-		<input type="text" name="type" value="${bookToUpdate.type}">
+		<input type="text" name="type" >
 	</label>
 	<br>
 	<input type="submit" value="Wyslij">
